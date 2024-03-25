@@ -1,0 +1,19 @@
+
+.novo_produto{
+    margin: 10px 0px 10px 20px;
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    color: #ffff;
+    background-color: rgb(247, 28, 28);
+    border: none;
+    border-radius: 5px;
+}
+.novo_produto:hover{
+    color: #f4f4f4;
+    background-color: rgb(216, 5, 5);
+    border: 2px solid rgb(246, 37, 37);
+}
+
+
+

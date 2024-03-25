@@ -1,0 +1,23 @@
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin: 0px 10px 5px 05px
+}
+
+.btn:hover{
+    background-color: rgb(196, 0, 0);
+    border: 2px solid rgb(244, 51, 51);
+}
+
+.cancel:hover{
+    border: 1px solid white;
+    background-color: rgb(84, 83, 83);
+}
+
+
+
+

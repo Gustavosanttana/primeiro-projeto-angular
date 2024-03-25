@@ -1,0 +1,35 @@
+
+table{
+    z-index: 4;
+    width: 100px;
+    margin: 10px;
+}
+
+table th {
+    width: 100px;
+    background: linear-gradient(to top, #c80000, transparent 90%);
+    color:#fffdfd;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: transparent;
+} 
+
+table :where(tr:nth-child(odd) :not(th)) {
+    background-color: #4e4e4e;
+}
+
+tr:hover{
+    opacity: 70%;
+}
+
+.edit{
+    margin-right: 20px;
+}
+
+.edit > i{
+    color: #d9cd26;
+}
+
+.delete > i{
+    color: #e35e6b;
+}
